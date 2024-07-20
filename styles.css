@@ -14,7 +14,7 @@ body{
     align-items: center;
     position: absolute;
     top: 0;
-    z-index: 10;
+    z-index: 1;
 
 }
 .logo{
@@ -60,6 +60,7 @@ body{
 }
 .row-poster-imageLarge:hover{
     transform: scale(1.5);
+    z-index: 1;
 }
 
 
@@ -222,4 +223,65 @@ width: 7px;
 }.searchicon{
     color: white;
     font-size: 20px;
+}
+.footer-content{
+    background-color: #101010;
+    margin-left: 306px;
+    width: 891px;
+    color: white;
+    margin-top: 84px;
+    
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube{
+    color:#fff;
+    size: 30px;
+    
+    display: flex;
+
+}
+ul{
+    list-style: none;
+    
+    
+}
+.social-links{
+    display: flex;
+    justify-content: start;
+    gap: 36px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 45px;
+}
+.social-links.a:hover{
+    cursor: pointer;
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+    font-weight: lighter;
+    color: rgb(207, 206, 206);
+    
+
+}
+.footer-service{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.footer-service button{
+    color: gray;
+    background-color: #111;
+    border:  1 solid grey;
+}
+li:hover{
+    color: #fff;
+    cursor: pointer;
 }
