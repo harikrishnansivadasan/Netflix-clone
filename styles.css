@@ -94,7 +94,8 @@ body{
     margin-left: 20px;
 }
 .banner{
-    background-image: url('/images/Aadujeevitham1-title.jpg');
+    background-image: url('./images/Aadujeevitham1-title.jpg');
+    background-image: url('./images/Aadujeevitham1-title.jpg');
     background-size: cover;
     background-position: center center;
     color: white;
